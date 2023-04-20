@@ -11,6 +11,9 @@ Nebula is a powerful tool for exploring and navigating through code files. It wa
 - python
 - git
 - Free Space = 1GB
+- PyQt5
+- PyQtWebEngine
+- libqt5gui5
 ```
 **To install python you can install it on the project's official site:**
 ```
@@ -20,6 +23,28 @@ https://www.python.org/downloads/
 ```
 https://git-scm.com/downloads
 ```
+**To install PyQt5:**
+```
+pip install PyQt5
+```
+**To install PyQtWebEngine:**
+```
+pip install PyQtWebEngine
+```
+**To install libqt5gui5 in Linux (Ubuntu):**
+```
+sudo apt-get install libqt5gui5
+```
+**For Fedora:**
+```
+sudo dnf install qt5-qtx11extras
+```
+**For Windows:**
+Follow this tutorial:
+* Go to the Qt download page: https://www.qt.io/download
+* Choose the appropriate version of Qt (e.g., Qt 5.15.2) and download the installer for Windows.
+* Run the installer and select the desired components. Make sure to select the "Qt 5.15.2 -> Qt -> Qt 5.15.2 -> Desktop gcc 64-bit" component, which includes the necessary plugins for running your script.
+* Follow the prompts and complete the installation.
 # Installation
 **First you need to clone the nebula repository with git:**
 ```
