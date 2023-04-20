@@ -10,10 +10,10 @@ Nebula is a powerful tool for exploring and navigating through code files. It wa
 ```
 - python
 - git
-- Free Space = 1GB
 - PyQt5
 - PyQtWebEngine
 - libqt5gui5
+- Free Space = 1GB
 ```
 **To install python you can install it on the project's official site:**
 ```
