@@ -7,14 +7,13 @@ Nebula is a powerful tool for exploring and navigating through code files. It wa
 **The Nebula project is an impressive example of an open-source initiative that is contributing to the programming community worldwide. If you're looking for a fast, reliable, and customizable open-source browser, Nebula is an excellent choice!**
 #
 # Pre-requisites
-```
 - python
 - git
 - PyQt5
 - PyQtWebEngine
 - libqt5gui5
 - Free Space = 1GB
-```
+
 **To install python you can install it on the project's official site:**
 ```
 https://www.python.org/downloads/
