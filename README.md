@@ -6,3 +6,53 @@ Nebula is a powerful tool for exploring and navigating through code files. It wa
 
 **The Nebula project is an impressive example of an open-source initiative that is contributing to the programming community worldwide. If you're looking for a fast, reliable, and customizable open-source browser, Nebula is an excellent choice!**
 #
+# Pre-requisites
+```
+- python
+- git
+- Free Space = 1GB
+```
+**To install python you can install it on the project's official site:**
+```
+https://www.python.org/downloads/
+```
+**To install git:**
+```
+https://git-scm.com/downloads
+```
+# Installation
+**First you need to clone the nebula repository with git:**
+```
+git clone https://github.com/Centauri-OS/Nebula
+```
+**To make Nebula work under Windows follow this tutorial:**
+* Right-click on the Nebula.py
+* Select "Open with" and then "Choose another app".
+* In the "Open with" window, scroll down and select "More apps".
+* In the list of apps, select "Look for another app on this PC".
+* Navigate to the folder where Python is installed and select the Python executable (usually called "python.exe"). Make sure to select the option "Always use this app to open .py files".
+* Click "OK" to save the changes and close the window.
+
+**For Linux:**
+**In the terminal:**
+```
+chmod +x Nebula.py
+```
+**Go to your bash profile of preference, in this case I am using bashrc as an example:**
+```
+nano ~/.bashrc
+alias Nebula = "./directory_where_you_left_nebula/Nebula.py
+source ~/.bashrc
+```
+**For MacOS:**
+* Open "Script Editor" on macOS
+* Write the following code:
+```
+do shell script "python /directory_where_you_left_nebula/Nebula.py"
+```
+* Save the file with the ".app" extension (e.g. "my_program.app")
+* Open "Automator" on macOS
+* Select the "Application" option
+* Drag the "Run AppleScript" item to the right panel
+* Paste the code from step 2 into the "Run AppleScript" field
+* Save the application
