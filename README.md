@@ -45,14 +45,14 @@ alias Nebula = "./directory_where_you_left_nebula/Nebula.py"
 source ~/.bashrc
 ```
 **For MacOS:**
-* Open "Script Editor" on macOS
+* Open "Script Editor" on macOS.
 * Write the following code:
 ```
 do shell script "python /directory_where_you_left_nebula/Nebula.py"
 ```
-* Save the file with the ".app" extension (e.g. "Nebula.app")
-* Open "Automator" on macOS
-* Select the "Application" option
-* Drag the "Run AppleScript" item to the right panel
-* Paste the code from step 2 into the "Run AppleScript" field
-* Save the application
+* Save the file with the ".app" extension (e.g. "Nebula.app").
+* Open "Automator" on macOS.
+* Select the "Application" option.
+* Drag the "Run AppleScript" item to the right panel.
+* Paste the code from step 2 into the "Run AppleScript" field.
+* Save the application.
