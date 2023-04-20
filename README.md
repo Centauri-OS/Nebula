@@ -41,6 +41,7 @@ sudo apt-get install libqt5gui5
 sudo dnf install qt5-qtx11extras
 ```
 **For Windows:**
+
 Follow this tutorial:
 * Go to the Qt download page: https://www.qt.io/download
 * Choose the appropriate version of Qt (e.g., Qt 5.15.2) and download the installer for Windows.
