@@ -41,7 +41,7 @@ chmod +x Nebula.py
 **Go to your bash profile of preference, in this case I am using bashrc as an example:**
 ```
 nano ~/.bashrc
-alias Nebula = "./directory_where_you_left_nebula/Nebula.py
+alias Nebula = "./directory_where_you_left_nebula/Nebula.py"
 source ~/.bashrc
 ```
 **For MacOS:**
