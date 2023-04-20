@@ -2,7 +2,6 @@ import sys
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import *
-from PyQt5.QtWebEngineWidgets import QWebEngineProfile
 from PyQt5.QtGui import QIcon
 
 
@@ -10,9 +9,11 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('https://duckduckgo.com/'))
+        self.browser.setUrl(QUrl('http://google.com'))
         self.setCentralWidget(self.browser)
         self.showMaximized()
+        cookie_store = self.browser.page().profile().cookieStore()
+        self.browser.page().profile().setPersistentCookiesPolicy(QWebEngineProfile.ForcePersistentCookies)
 
         # navbar
         navbar = QToolBar()
