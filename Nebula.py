@@ -10,7 +10,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('http://google.com'))
+        self.browser.setUrl(QUrl('https://duckduckgo.com/'))
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
@@ -41,7 +41,7 @@ class MainWindow(QMainWindow):
         self.browser.urlChanged.connect(self.update_url)
 
     def navigate_home(self):
-        self.browser.setUrl(QUrl('https://github.com/Centauri-OS/Nebula/blob/main/README.md'))
+        self.browser.setUrl(QUrl('https://duckduckgo.com/'))
 
     def navigate_to_url(self):
         url = self.url_bar.text()
