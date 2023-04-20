@@ -50,7 +50,7 @@ source ~/.bashrc
 ```
 do shell script "python /directory_where_you_left_nebula/Nebula.py"
 ```
-* Save the file with the ".app" extension (e.g. "my_program.app")
+* Save the file with the ".app" extension (e.g. "Nebula.app")
 * Open "Automator" on macOS
 * Select the "Application" option
 * Drag the "Run AppleScript" item to the right panel
