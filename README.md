@@ -30,7 +30,6 @@ pip install PyQt5
 **To install PyQtWebEngine:**
 ```
 pip install PyQtWebEngine
-sudo apt install python3-pyqt5.qtwebengine qtwebengine5-dev
 ```
 **To install libqt5gui5 in Linux (Ubuntu):**
 ```
