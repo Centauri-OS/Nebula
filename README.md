@@ -63,7 +63,7 @@ git clone https://github.com/Centauri-OS/Nebula
 ```
 chmod +x Nebula.py
 ```
-**Go to your bash profile of preference, in this case I am using bashrc as an example:**
+**Go to your shell profile of preference, in this case I am using bashrc as an example:**
 ```
 nano ~/.bashrc
 alias Nebula = "./directory_where_you_left_nebula/Nebula.py"
