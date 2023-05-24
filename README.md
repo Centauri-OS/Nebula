@@ -1,4 +1,8 @@
 # Introducing
+![Captura de tela de 2023-05-24 13-16-08](https://github.com/Centauri-OS/Nebula/assets/129683445/9245846d-c1ce-4c5b-aca8-bc8f5c16609d)
+
+
+
 **Introducing the Nebula project - an open-source browser built from scratch using the Python programming language!
 Nebula is a powerful tool for exploring and navigating through code files. It was designed to be an open-source alternative to other popular browsers, providing a fast and intuitive browsing experience. Nebula is written in Python, making it a great choice for those looking to learn about programming or contribute to open-source code.**
 
